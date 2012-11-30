@@ -7,7 +7,6 @@ task :default => :full_test
 JSHint.config_path = "spec/config/jshint.yml"
 
 Reek::Rake::Task.new do |t|
-  t.fail_on_error = false
 end
 
 RSpec::Core::RakeTask.new do |t|
