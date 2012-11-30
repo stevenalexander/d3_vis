@@ -1,6 +1,6 @@
 source :rubygems
-gem "sinatra"
-
+gem 'sinatra'
+gem 'rake'
 
 #testing
 gem 'rspec'
